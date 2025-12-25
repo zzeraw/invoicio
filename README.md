@@ -18,7 +18,7 @@ Invoicio
 
 Скорее всего запустится и на других версиях.
 
-Docker Compose обязательно дложен быть не ниже 2 версии.
+Docker Compose обязательно должен быть не ниже 2 версии.
 
 ### 2. Скопировать проект из Github
 
@@ -34,6 +34,13 @@ Docker Compose обязательно дложен быть не ниже 2 ве
 git config --global core.autocrlf input
 ```
 
+Опционально:
+
+```bash
+git config user.name "John Doe"
+git config user.email johndoe@example.com
+```
+
 * [https://github.com/zzeraw/invoicio](https://github.com/zzeraw/invoicio)
 
 Склонируйте код в папку проекта:
@@ -43,3 +50,4 @@ https://github.com/zzeraw/invoicio
 ```
 
 Переходим в папку проекта:
+
